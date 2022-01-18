@@ -12,6 +12,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class UserListActivity : AppCompatActivity() {
+
+    lateinit var test: String
     var userListViewModel: UserListViewModel? = null
     var activityUserListBinding: ActivityUserListBinding? = null
     lateinit var myadpter: UserListCustomAdapter

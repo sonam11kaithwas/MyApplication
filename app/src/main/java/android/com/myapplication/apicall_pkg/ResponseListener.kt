@@ -11,8 +11,8 @@ interface ResponseListener {
     val user_test: Int
         get() = 5
 
+
     fun onSuccess(jsonObject: JsonObject, requestCode: Int)
     fun onError(error: Throwable, requestCode: Int)
 
-//    fun myresponce(jsonObject: JsonObject)
 }
